@@ -1,7 +1,7 @@
 class Sshpass < Formula
   homepage "https://sourceforge.net/projects/sshpass/"
-  url "https://downloads.sourceforge.net/project/sshpass/sshpass/1.06/sshpass-1.06.tar.gz"
-  sha256 "c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60"
+  url "https://downloads.sourceforge.net/project/sshpass/sshpass/1.09/sshpass-1.09.tar.gz"
+  sha1 "cbc0e1300c7f1cacf9c850e5b42773cb53211d9d"
 
   def install
     system "./configure", "--disable-debug",
